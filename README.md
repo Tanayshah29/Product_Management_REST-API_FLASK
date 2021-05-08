@@ -37,20 +37,24 @@
 
           e) DELETE localhost:5000/product/1 -> DELETE a product from the database
   
-4) You can see the records in Sqlite Database in VS code by installing the sqlite extension and then press Ctrl+Shift+P and type Open Database and choose the products.sqlite file. In the Sqlite explorer you can see the records.
+4) You can see the records in Sqlite Database in VS code by installing the sqlite extension and then press Ctrl+Shift+P.
+   Type Open Database and choose the products.sqlite file. 
+   In the Sqlite explorer you can see the records.
 
 5) Deployment to Heroku-
   
-      a)pip install gunicorn
+      a) pip install gunicorn
 
-      b)Create Procfile
+      b) Create Procfile
 
-      c)pip freeze > requirements.txt
+      c) pip freeze > requirements.txt
 
-      d)Login to your Heroku account and create new app product-management-api-poc(anyname). Also download Heroku CLI.
+      d) Login to your Heroku account and create new app product-management-api-poc(anyname). Also download Heroku CLI.
 
-      e)Terminal    -> git init .
-
+      e) Terminal
+  
+                    -> git init .
+                    
                     -> git add --all
 
                     -> git commit -m "initial commit"
@@ -61,4 +65,4 @@
 
                     -> git push heroku master
 
-      f)Now the app can directly run at https://product-management-api-poc.herokuapp.com/
+      f) Now the app can directly run at https://product-management-api-poc.herokuapp.com/
