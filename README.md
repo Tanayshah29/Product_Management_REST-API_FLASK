@@ -37,9 +37,9 @@
 
           e) DELETE localhost:5000/product/1 -> DELETE a product from the database
   
-4)You can see the records in Sqlite Database in VS code by installing the sqlite extension and then press Ctrl+Shift+P and type Open Database and choose the products.sqlite file. In the Sqlite explorer you can see the records.
+4) You can see the records in Sqlite Database in VS code by installing the sqlite extension and then press Ctrl+Shift+P and type Open Database and choose the products.sqlite file. In the Sqlite explorer you can see the records.
 
-5)Deployment to Heroku-
+5) Deployment to Heroku-
   
       a)pip install gunicorn
 
